@@ -14,7 +14,7 @@ function createWindow() {
   });
 
   win.loadURL("http://localhost:3000");
-  // win.webContents.openDevTools();
+  win.webContents.openDevTools();
   //使用IPC实现主进程和渲染进程之间进行通信
   ipcMain.on("message", (event, arg) => {
     console.log(arg);
