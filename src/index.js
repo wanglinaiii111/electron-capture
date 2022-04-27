@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// window.addEventListener('DOMContentLoaded', () => {
+//   window.ipcRenderer.send('message', 'hello')
+//   window.ipcRenderer.on('reply', (event, arg) => {
+//       alert(arg)
+//   })
+// })
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

@@ -2,7 +2,9 @@
   "name": "my-react-electron",
   "version": "0.1.0",
   "private": true,
+  "main": "main.js",
   "dependencies": {
+    "@electron/remote": "^2.0.8",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
@@ -12,6 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "elec": "electron .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "electron": "^18.0.4"
   }
 }
