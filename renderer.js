@@ -9,4 +9,3 @@ window.addEventListener('DOMContentLoaded', () => {
     })
 })
 
-alert(45)
